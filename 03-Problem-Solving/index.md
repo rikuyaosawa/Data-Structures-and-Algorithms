@@ -11,7 +11,6 @@ Table of Contents
     - [Example Problem: Character Count Function](#example-problem-character-count-function)
     - [Benefits of This Approach](#benefits-of-this-approach)
   - [Step 4: Solve or Simplify](#step-4-solve-or-simplify)
-      - [Why Simplify?](#why-simplify)
     - [Simplification Process](#simplification-process)
   - [Step 5: Look Back and Refactor](#step-5-look-back-and-refactor)
     - [Key Considerations for Refactoring](#key-considerations-for-refactoring)
@@ -140,3 +139,7 @@ Even if the solution isn't perfect, getting 90% of the way there is valuable. In
 The refactoring process is crucial for improving code quality and efficiency. Reflecting on your solution and considering alternative approaches can lead to better outcomes.
 
 Engaging in this process not only enhances your code but also demonstrates your problem-solving skills in interviews.
+
+---
+
+END
