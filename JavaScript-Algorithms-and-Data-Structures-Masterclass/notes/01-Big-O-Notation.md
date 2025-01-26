@@ -15,6 +15,8 @@ Table of Contents
 
 > Big O notation is a mathematical concept used in computer science to describe the performance of algorithms in terms of <font color="pink">**time and space**</font> complexity
 
+![Big O complexity chart](https://www.freecodecamp.org/news/content/images/2021/06/1_KfZYFUT2OKfjekJlCeYvuQ.jpeg)
+
 **Time complexity** is a way to measure how the runtime of an algorithm increases as the size of the input data grows. It provides insight into the efficiency of an algorithm, allowing a comparison between different approaches to solving a problem.
 
 **Space complexity** refers to the amount of memory an algorithm uses in relation to the size of its input. It helps evaluate how an algorithm's memory requirements grow as the input size increases.
