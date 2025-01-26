@@ -37,10 +37,10 @@ The first step in this approach is to understand the problem thoroughly before a
 
 Key questions to ask when understanding a problem include:
 
--   Can you restate the problem in your own words?
--   What are the inputs and outputs of the problem?
--   Can the outputs be determined from the inputs? In other words, do I have enough information to solve the problem?
--   How should important pieces of data be labeled? What is the terminology I should use?
+- Can you restate the problem in your own words?
+- What are the inputs and outputs of the problem?
+- Can the outputs be determined from the inputs? In other words, do I have enough information to solve the problem?
+- How should important pieces of data be labeled? What is the terminology I should use?
 
 ## Step 2: Explore Concrete Examples
 
@@ -50,65 +50,65 @@ When faced with a coding challenge, do the following steps:
 
 1. **Start with simple examples**
 
-    Write down two or three straightforward cases, detailing the inputs and expected outputs. This practice not only reinforces your understanding but also helps you identify potential edge cases and complexities.
+   Write down two or three straightforward cases, detailing the inputs and expected outputs. This practice not only reinforces your understanding but also helps you identify potential edge cases and complexities.
 
 2. **Progress to more complex examples, considering various scenarios, such as invalid inputs or empty strings**
 
-    For example, if the input is an empty string, what should the function return? An empty object, null, or an error? Similarly, if a non-string input is provided, how should the function respond?
+   For example, if the input is an empty string, what should the function return? An empty object, null, or an error? Similarly, if a non-string input is provided, how should the function respond?
 
 By exploring these examples, we gain deeper insights into the problem and can develop a more robust solution. This step is essential for building a comprehensive understanding of the problem before diving into coding, ensuring that we are well-prepared to tackle the challenge ahead.
 
 ## Step 3: Break Down the Problem
 
--   Before coding, break down the problem into steps.
--   Write down the steps; it doesn't need to be full pseudocode or valid syntax.
--   Use comments as a guide for the steps needed.
+- Before coding, break down the problem into steps.
+- Write down the steps; it doesn't need to be full pseudocode or valid syntax.
+- Use comments as a guide for the steps needed.
 
 ### Importance of Breaking Down
 
--   Communicates your thought process to the interviewer.
--   Avoids jumping straight into coding without a plan.
--   Helps identify lingering questions or uncertainties.
+- Communicates your thought process to the interviewer.
+- Avoids jumping straight into coding without a plan.
+- Helps identify lingering questions or uncertainties.
 
 ### Example Problem: Character Count Function
 
--   Problem: Write a function that takes a string and returns counts of each character.
+- Problem: Write a function that takes a string and returns counts of each character.
 
 1. **Function Skeleton**:
-    - Name: `charCount`
-    - Input: `str` (string)
+   - Name: `charCount`
+   - Input: `str` (string)
 2. **Return Value**:
-    - Return an object with keys as lowercase alphanumeric characters.
+   - Return an object with keys as lowercase alphanumeric characters.
 3. **Basic Steps**:
-    - Create an object to return.
-    - Loop over each character in the string.
-    - Return the object at the end.
+   - Create an object to return.
+   - Loop over each character in the string.
+   - Return the object at the end.
 
--   **Looping Logic**:
-    -   For each character:
-        -   Check if it is alphanumeric.
-        -   If it is, check if it exists in the object:
-            -   If yes, increment the count.
-            -   If no, add it with a count of one.
-        -   If not alphanumeric, do nothing.
--   **Final Return**: Return the constructed object.
+- **Looping Logic**:
+  - For each character:
+    - Check if it is alphanumeric.
+    - If it is, check if it exists in the object:
+      - If yes, increment the count.
+      - If no, add it with a count of one.
+    - If not alphanumeric, do nothing.
+- **Final Return**: Return the constructed object.
 
 ### Benefits of This Approach
 
--   Writing down steps helps clarify the solution.
--   Demonstrates to the interviewer that you have a structured approach.
--   Even if you run out of time, having a clear outline shows your understanding of the problem-solving process.
+- Writing down steps helps clarify the solution.
+- Demonstrates to the interviewer that you have a structured approach.
+- Even if you run out of time, having a clear outline shows your understanding of the problem-solving process.
 
 ## Step 4: Solve or Simplify
 
--   If you feel ready, solve the problem directly.
--   If not, simplify the problem by focusing on parts you can handle.
--   **Important Note**: Simplifying does not mean changing the problem entirely.
+- If you feel ready, solve the problem directly.
+- If not, simplify the problem by focusing on parts you can handle.
+- **Important Note**: Simplifying does not mean changing the problem entirely.
 
 #### Why Simplify?
 
--   In interviews, it's better to show progress than to get stuck on a difficult part.
--   Simplifying can lead to insights that help solve the more complex aspects of the problem.
+- In interviews, it's better to show progress than to get stuck on a difficult part.
+- Simplifying can lead to insights that help solve the more complex aspects of the problem.
 
 ### Simplification Process
 
@@ -122,9 +122,9 @@ Even if the solution isn't perfect, getting 90% of the way there is valuable. In
 
 ## Step 5: Look Back and Refactor
 
--   After creating a workable solution, resist the temptation to stop.
--   Strive for improvement in code quality, efficiency, and readability.
--   Even if a solution works, it’s important to reflect on it and identify areas for enhancement.
+- After creating a workable solution, resist the temptation to stop.
+- Strive for improvement in code quality, efficiency, and readability.
+- Even if a solution works, it’s important to reflect on it and identify areas for enhancement.
 
 ### Key Considerations for Refactoring
 
