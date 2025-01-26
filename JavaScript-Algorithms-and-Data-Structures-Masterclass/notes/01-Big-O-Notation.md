@@ -3,6 +3,7 @@
 Table of Contents
 
 - [Big O Notation](#big-o-notation)
+  - [Overview](#overview)
   - [Time Complexity](#time-complexity)
   - [Space Complexity](#space-complexity)
   - [Performance Comparison](#performance-comparison)
@@ -11,7 +12,7 @@ Table of Contents
   - [Ignoring Constants](#ignoring-constants)
   - [Logarithms](#logarithms)
 
----
+## Overview
 
 > Big O notation is a mathematical concept used in computer science to describe the performance of algorithms in terms of <font color="pink">**time and space**</font> complexity
 

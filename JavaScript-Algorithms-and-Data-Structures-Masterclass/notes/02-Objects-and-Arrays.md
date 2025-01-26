@@ -3,8 +3,11 @@
 Table of Contents
 
 - [Objects and Arrays](#objects-and-arrays)
+  - [Overview](#overview)
   - [Big O of Objects](#big-o-of-objects)
   - [Big O of Arrays](#big-o-of-arrays)
+
+## Overview
 
 > Objects are unordered, key-value pairs.
 

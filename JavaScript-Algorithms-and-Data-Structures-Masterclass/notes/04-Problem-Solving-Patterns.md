@@ -3,6 +3,7 @@
 Table of Contents
 
 - [Problem Solving Patters](#problem-solving-patters)
+  - [Overview](#overview)
   - [Frequency Counter Pattern](#frequency-counter-pattern)
     - [Example: Finding the same frequency squared](#example-finding-the-same-frequency-squared)
   - [Multiple Pointers Pattern](#multiple-pointers-pattern)
@@ -11,6 +12,8 @@ Table of Contents
     - [Example: Finding the maximum sum of a subarray](#example-finding-the-maximum-sum-of-a-subarray)
   - [Divide and Conquer](#divide-and-conquer)
     - [Example: Binary Search](#example-binary-search)
+
+## Overview
 
 There are several well-known problem-solving patterns in programming and algorithm design. These patterns often serve as blueprints or strategies to tackle specific types of problems efficiently.
 
