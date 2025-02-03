@@ -5,7 +5,6 @@ Table of Contents
 - [Searching Algorithms](#searching-algorithms)
   - [Overview](#overview)
   - [Linear Search](#linear-search)
-  - [Source](#source)
 
 ## Overview
 
@@ -21,6 +20,10 @@ Table of Contents
 
 This is the most straightforward one, and many JavaScript methods use this algorithm such as `indexOf`, `includes`, `find`, and `findIndex`.
 
-## Source
+**Big O of Linear Search**
 
-- []()
+| **Scenario**     | **Time Complexity** | **Description**                                      |
+| ---------------- | ------------------- | ---------------------------------------------------- |
+| **Best Case**    | O(1)                | The target element is found at the first position.   |
+| **Average Case** | O(n)                | The target element is in the middle of the list.     |
+| **Worst Case**   | O(n)                | The target is at the end or not present in the list. |
