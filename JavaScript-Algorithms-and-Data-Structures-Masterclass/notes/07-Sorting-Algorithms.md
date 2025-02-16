@@ -5,6 +5,7 @@ Table of Contents
 - [Sorting Algorithms](#sorting-algorithms)
   - [Overview](#overview)
   - [Bubble Sort](#bubble-sort)
+  - [Selection Sort](#selection-sort)
 
 ## Overview
 
@@ -48,3 +49,17 @@ Table of Contents
 | **Best Case**    | O(n)                | If the array is already sorted, no swaps are needed, and the loop exits early.               |
 | **Average Case** | O(n²)               | On average, it will perform n²/2 comparisons and swaps.                                      |
 | **Worst Case**   | O(n²)               | If the array is in reverse order, the algorithm will need to compare and swap every element. |
+
+## Selection Sort
+
+**Selection Sort** is a comparison-based sorting algorithm. It sorts an array by repeatedly selecting the smallest (or largest) element from the unsorted portion and swapping it with the first unsorted element. This process continues until the entire array is sorted.
+
+- First we find the smallest element and swap it with the first element. This way we get the smallest element at its correct position.
+- Then we find the smallest among remaining elements (or second smallest) and swap it with the second element.
+- We keep doing this until we get all elements moved to correct position.
+
+---
+
+![Selection sort visualized](https://www.programiz.com/sites/tutorial2program/files/Selection-sort-0-comparision.png)
+
+---
